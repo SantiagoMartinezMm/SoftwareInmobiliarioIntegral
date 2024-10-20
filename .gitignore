@@ -128,3 +128,55 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Generated plugin registrant
+ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+flutter_export_environment.sh
+
+# Obsolete Xcode dependency manager
+Pods
+Podfile.lock
+.pub-cache/
+.gradle
+*.iml
+
+# Android related
+*.lock
+*.log
+.android/
+.idea/
+.gradle/
+*.iml
+app/*.iml
+local.properties
+*.jks
+
+# Firebase related
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+
+# Misc
+*.class
+*.project
+*.markdown
+packages.bcp
+packages.cached
+.dart_tools
+.packages
+
+# JetBrains IDEs
+.idea/
